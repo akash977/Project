@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(185, 225, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.calculate {
+    text-align: center;
+    color: #468ed2;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 17.5%;
+    top: 15%;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px 0px 0px 0px;
+}
+
+.guide {
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 17.5%;
+    top: 15%;
+
+    background: #56A3EB;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 50px 0px;
+}
+
+.list {
+    text-align: left;
+    font-size: x-large;
+    line-height: 3.5em;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+
+    background: rgb(236, 242, 244);
+    border: 3px solid #468ed2;
+
+    padding: 0 10px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+
+    display: flex;
+
+}
+
+::placeholder {
+    color: #197CD8;
+}
+
+button {
+    position: relative;
+    background: #468ed2;
+    color: white;
+    width: 400px;
+    height: 50px;
+    top: 100px;
+    border: #468ed2;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.urBmi{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+}
